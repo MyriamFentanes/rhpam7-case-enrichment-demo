@@ -7,8 +7,8 @@ Param(
 
 # Additional properties
 $PROJECT_GIT_BRANCH="master"
-$PROJECT_GIT_DIR="$PROJECT_HOME\support\demo_project_git"
-$PROJECT_GIT_REPO_NAME="examples-rhpam7-mortgage-demo-repo.git"
+$PROJECT_GIT_DIR="$PROJECT_HOME\support\rhpam7-case-enrichment-niogit"
+$PROJECT_GIT_REPO_NAME="examples-enrichment-case.git"
 $OFFLINE_MODE="false"
 
 # wipe screen
@@ -165,6 +165,7 @@ Write-Host ""
 Write-Host "- enabling demo accounts setup ...`n"
 $argList1 = "-a -r ApplicationRealm -u pamAdmin -p 'redhatpam1!' -ro 'analyst,admin,manager,user,kie-server,kiemgmt,rest-all' --silent"
 $argList2 = "-a -r ApplicationRealm -u kieserver -p 'kieserver1!' -ro 'kie-server' --silent"
+$argList1 = "-a -r ApplicationRealm -u john -p 'redhatpam1!' -ro 'analyst,admin,manager,user,kie-server,kiemgmt,rest-all,HR' --silent"
 try {
 	Invoke-Expression "$JBOSS_HOME\bin\add-user.ps1 $argList1"
   Invoke-Expression "$JBOSS_HOME\bin\add-user.ps1 $argList2"

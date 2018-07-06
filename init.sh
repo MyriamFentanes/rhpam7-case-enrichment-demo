@@ -3,7 +3,7 @@
 
 # Additional properties
 PROJECT_GIT_BRANCH=master
-PROJECT_GIT_DIR=./support/enrichment_case_project_git
+PROJECT_GIT_DIR=./support/rhpam7-case-enrichment-niogit
 PROJECT_GIT_REPO_NAME=examples-enrichment-case.git
 OFFLINE_MODE=false
 # wipe screen.
