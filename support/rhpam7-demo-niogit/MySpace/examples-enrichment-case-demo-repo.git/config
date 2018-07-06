@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	logallrefupdates = false
+	precomposeunicode = true
+[remote "origin"]
+	url = file:///Users/mfentane/Documents/products/bpm/demos/rhpam7-case-enrichment-demo/target/jboss-eap-7.1/bin/.niogit/system/examples-enrichment-case-demo-repo.git/
+	fetch = +refs/*:refs/*
+	mirror = true
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master

@@ -2,12 +2,7 @@
 	repositoryformatversion = 0
 	filemode = true
 	bare = true
-	logallrefupdates = false
+	ignorecase = true
 	precomposeunicode = true
 [remote "origin"]
-	url = file:///Users/mfentane/Documents/products/bpm/software/PAM70/jboss-eap-7.1/bin/.niogit/system/examples-enrichment-case.git/
-	fetch = +refs/*:refs/*
-	mirror = true
-[branch "master"]
-	remote = origin
-	merge = refs/heads/master
+	url = /Users/mfentane/Documents/products/bpm/demos/rhpam7-case-enrichment-demo/target/temp/examples-enrichment-case.git
