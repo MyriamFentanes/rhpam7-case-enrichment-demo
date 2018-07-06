@@ -3,10 +3,9 @@
 
 # Additional properties
 PROJECT_GIT_BRANCH=master
-PROJECT_GIT_DIR=./support/demo_project_git
-PROJECT_GIT_REPO_NAME=examples-rhpam7-mortgage-demo-repo.git
+PROJECT_GIT_DIR=./support/enrichment_case_project_git
+PROJECT_GIT_REPO_NAME=examples-enrichment-case.git
 OFFLINE_MODE=false
-
 # wipe screen.
 clear
 
@@ -165,6 +164,7 @@ echo "  - enabling demo accounts setup..."
 echo
 $JBOSS_HOME/bin/add-user.sh -a -r ApplicationRealm -u pamAdmin -p redhatpam1! -ro analyst,admin,manager,user,kie-server,kiemgmt,rest-all --silent
 $JBOSS_HOME/bin/add-user.sh -a -r ApplicationRealm -u kieserver -p kieserver1! -ro kie-server --silent
+$JBOSS_HOME/bin/add-user.sh -a -r ApplicationRealm -u john -p redhatpam1! -ro analyst,admin,manager,user,kie-server,kiemgmt,rest-all,HR --silent
 
 echo "  - setting up demo projects..."
 echo
