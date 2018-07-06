@@ -1,6 +1,6 @@
 DEMO="Enrichment Case Demo"
-AUTHORS="Red Hat"
-PROJECT="git@github.com:jbossdemocentral/rhpam7-enrichment-case-demo.git"
+AUTHORS="Red Hat"demo.git
+PROJECT="git@github.com:MyriamFentanes/enrichment-case-demo-repo.git"
 PRODUCT="Red Hat Process Automation Manager"
 TARGET=./target
 JBOSS_HOME=$TARGET/jboss-eap-7.1
