@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = /Users/mfentane/Documents/products/bpm/demos/new/rhpam7-case-enrichment-demo/target/temp/examples-enrichment-case.git
